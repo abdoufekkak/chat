@@ -1,0 +1,3 @@
+const x = { name: "abdou", prenom: "fekkk", age: 22 };
+const { name, ...prenom } = x;
+console.log({ name, prenom });
